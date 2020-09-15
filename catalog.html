@@ -25,79 +25,85 @@
       </nav>
     </header>
     <main>
-      <!-- форму сделаю позже-->
       <section class="choice">
-        <ul>
-          <li>
-            <h3>Инфраструктура:</h3>
-            <input type="checkbox" checked />Бассейн
-            <input type="checkbox" />Парковка <input type="checkbox" />WI-FI
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <h3>Тип жилья:</h3>
-            <input type="checkbox" checked />Гостиница
-            <input type="checkbox" checked />Мотель
-            <input type="checkbox" checked />Апартаменты
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <h3>Стоимость в сутки (Р):</h3>
-            <p>от 0</p>
-            <p>до 3000</p>
-            <input type="range" min="0" max="3000" />
-            <button type="submit">Показать</button>
-          </li>
-        </ul>
+        <h2>Поиск</h2>
       </section>
-      <section>
-        <div>
-          <h3>Найдено: 3</h3>
+      <section class="result">
+        <h2>Результаты поиска</h2>
+        <div class="result__sort">
+          <div>
+            <span>Найдено: 3</span>
+          </div>
+          <div>
+            <h3>Сортировка:</h3>
+            <ul>
+              <li>
+                <a href="#">По цене</a>
+              </li>
+              <li>
+                <a href="#">По типу</a>
+              </li>
+              <li>
+                <a href="#">По рейтингу</a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a href="#">+</a>
+              </li>
+              <li>
+                <a href="#">-</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div>
-          <p>Сортировка:</p>
+        <div class="result__content">
+          <img src="img/Layer21.png" alt="Гостиница" width="135" height="90" />
+          <a href="#"><h3>Amara resort & SPA</h3></a>
+          <span>Гостиница</span>
+          <span>От 4000 Р.</span>
+          <a href="#">Подробнее</a>
+          <a href="#">Забронировать</a>
           <ul>
-            <li>
-              <p>По цене</p>
-            </li>
-            <li>
-              <p>По типу</p>
-            </li>
-            <li>
-              <p>По рейтингу</p>
-            </li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
           </ul>
-        </div>
-      </section>
-      <section>
-        <div>
-          <img src="img/Layer21.png" alt="Гостиница" />
-          <h1>Amara resort & SPA</h1>
-          <p>Гостиница</p>
-          <p>От 4000 Р.</p>
-          <button type="button">Подробнее</button>
-          <button type="button">Забронировать</button>
-          <p>Рейтинг</p>
+          <p>Рейтинг: 8,5</p>
         </div>
         <div>
-          <img src="img/Layer89copy.png" alt="Мотель" />
-          <h1>Desert quail inn</h1>
-          <p>Мотель</p>
-          <p>от 3000 Р.</p>
-          <button type="button">Подробнее</button>
-          <button type="button">Забронировать</button>
-          <p>Рейтинг</p>
+          <img src="img/Layer89copy.png" alt="Мотель" width="135" height="90" />
+          <a href="#"><h3>Desert quail inn</h3></a>
+          <span>Мотель</span>
+          <span>от 3000 Р.</span>
+          <a href="#">Подробнее</a>
+          <a href="#">Забронировать</a>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+          <p>Рейтинг: 8,9</p>
         </div>
         <div>
-          <img src="img/Rectangle.png" alt="Апартаменты" />
-          <h1>Villas at poco diablo</h1>
-          <p>Апартаменты</p>
-          <p>От 2000 Р.</p>
-          <button type="button">Подробнее</button>
-          <button type="button">Забронировать</button>
-          <p>Рейтинг</p>
+          <img
+            src="img/Rectangle.png"
+            alt="Апартаменты"
+            width="135"
+            height="90"
+          />
+          <a href="#"><h3>Villas at poco diablo</h3></a>
+          <span>Апартаменты</span>
+          <span>От 2000 Р.</span>
+          <a href="#">Подробнее</a>
+          <a href="#">Забронировать</a>
+          <ul>
+            <li></li>
+            <li></li>
+          </ul>
+          <p>Рейтинг: 9,2</p>
         </div>
       </section>
     </main>
