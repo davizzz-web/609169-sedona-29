@@ -85,15 +85,17 @@ img {
   font-weight: 700;
   font-size: 21px;
   line-height: 26px;
+  text-transform: uppercase;
 }
 
 .small-text {
   font-weight: 400;
   font-size: 14px;
   line-height: 26px;
+  text-transform: uppercase;
 }
 
-.viev {
+.viev-text {
   background-color: var(--seagull);
   padding: 47px 51px 54px 51px;
   color: var(--white);
@@ -101,7 +103,7 @@ img {
   text-align: center;
 }
 
-.viev h3 {
+.viev-text h3 {
   font-weight: 700;
   font-size: 21px;
   line-height: 21px;
@@ -109,12 +111,12 @@ img {
   padding: 0;
 }
 
-.viev span {
+.viev-text span {
   font-size: 14px;
   line-height: 21px;
 }
 
-.viev p {
+.viev-text p {
   font-size: 14px;
   line-height: 21px;
   margin: 0;
@@ -126,17 +128,20 @@ img {
   line-height: 21px;
   text-transform: uppercase;
   list-style: none;
+  text-align: center;
 }
 
 .feature-item span {
   font-size: 14px;
   line-height: 21px;
+  text-align: center;
 }
 
 .feature-item p {
   text-transform: uppercase;
   font-size: 14px;
   line-height: 21px;
+  text-align: center;
 }
 
 .interested h2 {
@@ -144,37 +149,92 @@ img {
   font-size: 30px;
   line-height: 24px;
   text-transform: uppercase;
+  text-align: center;
 }
 
-button {
+.interested p {
+  text-align: center;
+}
+
+.search-button {
   color: var(--white);
   font-weight: 700;
   font-size: 21px;
   line-height: 26px;
   text-transform: uppercase;
-}
-
-.search-button {
   background-color: var(--roman-coffee);
+  cursor: pointer;
 }
 
-.search-button :hover {
-  color: var(--saddle);
+.search-button:hover {
+  background-color: var(--saddle);
 }
 
-.search-button :active {
+.search-button:active {
   color: var(--paco);
 }
 
 .main-footer {
   color: var(--black);
+  text-transform: uppercase;
+}
+
+.footer-contacts p {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.footer-phone {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  list-style: none;
+  color: var(--black);
+}
+
+.footer-phone:hover {
+  color: var(--seagull);
+}
+
+.footer-phone:active {
+  color: var(--black);
+  opacity: 0.3;
 }
 
 .footer-social {
   list-style: none;
 }
 
+.footer-social a {
+  color: var(--black);
+  text-transform: uppercase;
+}
+
+.footer-social a:hover {
+  color: var(--seagull);
+}
+
+.footer-social a:active {
+  color: var(--black);
+  opacity: 0.3;
+}
+
 .footer-copyright p {
   font-size: 14px;
   line-height: 26px;
+}
+
+.footer-copyright a {
+  list-style: none;
+  color: var(--black);
+}
+
+.footer-copyright a:hover {
+  color: var(--seagull);
+}
+
+.footer-copyright a:active {
+  color: var(--black);
+  opacity: 0.3;
 }
