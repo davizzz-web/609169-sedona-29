@@ -27,6 +27,7 @@
   --saddle: #604e43;
   --paco: #503e33;
   --aubegrine: #231f20;
+  --very-light-grey: #cacaca;
 }
 /*Global*/
 *,
@@ -237,4 +238,88 @@ img {
 .footer-copyright a:active {
   color: var(--black);
   opacity: 0.3;
+}
+
+.result-sort span {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+.sort h3 {
+  font-weight: 400s;
+  font-size: 12px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.sort-by {
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  border-bottom: var(--black);
+}
+
+.selected {
+  color: var(--seagull);
+}
+
+.selected:active {
+  color: var(--black);
+  opacity: 0.3;
+}
+
+.sort-by a:hover {
+  color: var(--seagull);
+}
+
+.sort-by a:active {
+  color: var(--black);
+}
+
+.arrows {
+  list-style: none;
+}
+
+.arrows a {
+  color: var(--very-light-grey);
+}
+
+.arrows a:hover {
+  color: var(--black);
+}
+
+.arrows a:active {
+  color: var(--seagull);
+}
+
+.result-content h3 {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+}
+.result-content a {
+  color: var(--black);
+}
+
+.result-content a:hover {
+  color: var(--seagull);
+}
+
+.result-content a:active {
+  color: var(--black);
+  opacity: 0.3;
+}
+
+.result-content span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.stars {
+  list-style: none;
 }

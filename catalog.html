@@ -3,11 +3,13 @@
   <head>
     <meta charset="utf-8" />
     <title>Седона</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
 
-  <body>
+  <body class="page-body">
     <header>
-      <nav>
+      <nav class="main-nav">
         <a href="index.html">
           <img
             src="img/logo.png"
@@ -16,7 +18,7 @@
             alt="Логотип Седона"
           />
         </a>
-        <ul>
+        <ul class="site-nav">
           <li><a href="blank.html">Информация</a></li>
           <li><a href="blank.html">Фото и видео</a></li>
           <li><a href="blank.html">Карта штата</a></li>
@@ -26,19 +28,19 @@
     </header>
     <main>
       <section class="choice">
-        <h2>Поиск</h2>
+        <h2 class="visually-hidden">Поиск</h2>
       </section>
       <section class="result">
-        <h2>Результаты поиска</h2>
-        <div class="result__sort">
+        <h2 class="visually-hidden">Результаты поиска</h2>
+        <div class="result-sort">
           <div>
             <span>Найдено: 3</span>
           </div>
-          <div>
+          <div class="sort">
             <h3>Сортировка:</h3>
-            <ul>
+            <ul class=sort-by>
               <li>
-                <a href="#">По цене</a>
+                <a class="selected" href="#">По цене</a>
               </li>
               <li>
                 <a href="#">По типу</a>
@@ -47,7 +49,7 @@
                 <a href="#">По рейтингу</a>
               </li>
             </ul>
-            <ul>
+            <ul class="arrows">
               <li>
                 <a href="#">+</a>
               </li>
@@ -57,14 +59,14 @@
             </ul>
           </div>
         </div>
-        <div class="result__content">
+        <div class="result-content">
           <img src="img/Layer21.png" alt="Гостиница" width="135" height="90" />
           <a href="#"><h3>Amara resort & SPA</h3></a>
           <span>Гостиница</span>
           <span>От 4000 Р.</span>
           <a href="#">Подробнее</a>
           <a href="#">Забронировать</a>
-          <ul>
+          <ul class="stars">
             <li></li>
             <li></li>
             <li></li>
@@ -73,14 +75,14 @@
           </ul>
           <p>Рейтинг: 8,5</p>
         </div>
-        <div>
+        <div class="result-content">
           <img src="img/Layer89copy.png" alt="Мотель" width="135" height="90" />
           <a href="#"><h3>Desert quail inn</h3></a>
           <span>Мотель</span>
           <span>от 3000 Р.</span>
           <a href="#">Подробнее</a>
           <a href="#">Забронировать</a>
-          <ul>
+          <ul class=stars>
             <li></li>
             <li></li>
             <li></li>
@@ -89,7 +91,7 @@
           </ul>
           <p>Рейтинг: 8,9</p>
         </div>
-        <div>
+        <div class="result-content">
           <img
             src="img/Rectangle.png"
             alt="Апартаменты"
@@ -101,7 +103,7 @@
           <span>От 2000 Р.</span>
           <a href="#">Подробнее</a>
           <a href="#">Забронировать</a>
-          <ul>
+          <ul class="stars">
             <li></li>
             <li></li>
             <li></li>
@@ -112,24 +114,24 @@
         </div>
       </section>
     </main>
-    <footer>
-      <div>
+    <footer class="page-footer main-footer">
+      <div class="footer-contacts">
         <p>#visitSEDONA</p>
-        <p>Тел:<a href="tel:+74956660166">+74956660166</a></p>
+        <p>Тел:<a class="footer-phone" href="tel:+74956660166">+74956660166</a></p>
       </div>
-      <ul>
+      <ul class="footer-social">
         <li>
-          <a href="#">Twitter</a>
+          <a class="social-link" href="#">Twitter</a>
         </li>
         <li>
-          <a href="#">Facebook</a>
+          <a class="social-link" href="#">Facebook</a>
         </li>
         <li>
-          <a href="#">Youtube</a>
+          <a class="social-link" href="#">Youtube</a>
         </li>
       </ul>
-      <div>
-        <p>Website by:<a href="https://htmlacademy.ru/">HTML Academy</a></p>
+      <div class="footer-copyright">
+        <p>Website by:</p><a href="https://htmlacademy.ru/">HTML Academy</a></p>
       </div>
     </footer>
   </body>
