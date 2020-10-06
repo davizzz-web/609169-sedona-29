@@ -342,8 +342,6 @@ li:nth-child(4n+3), li:nth-child(4n+4) {
 }
 
 .result-sort {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   margin-top: 29px;
   padding-left: 73px;
   padding-right: 73px;
@@ -380,6 +378,9 @@ li:nth-child(4n+3), li:nth-child(4n+4) {
   float: left;
   margin-top: 6px;
   margin-right: 30px;
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .sort-link.active {
@@ -407,6 +408,8 @@ li:nth-child(4n+3), li:nth-child(4n+4) {
   margin: 0;
   padding: 0;
   list-style: none;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .arrows a {
@@ -457,6 +460,9 @@ li:nth-child(4n+3), li:nth-child(4n+4) {
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
+  display: inline-block;
+  margin-right: 6px;
+  text-align: center;
 }
 
 .result-content__details:hover {
@@ -513,4 +519,23 @@ li:nth-child(4n+3), li:nth-child(4n+4) {
   margin: 0;
   padding: 0;
   line-height: 26px;
+}
+
+.result-content__pic {
+  margin-left: 73px;
+}
+
+.result-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.result-content__description {
+  display: grid;
+  grid-template-rows: min-content;
+  justify-self: start;
+}
+
+.result-content__rating-block {
+  display: flex;
+  justify-content: flex-end;
 }
