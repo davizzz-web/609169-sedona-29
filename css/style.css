@@ -82,23 +82,41 @@ img {
 
 .main-header {
   text-transform: uppercase;
-  text-transform: uppercase;
-  padding: 15px 72px;
+  position: relative;
+  width: 1200px;
+  height: 56px;
 }
 
 /*nav*/
+
+.site-nav li {
+  padding: 0 64px;
+  text-align: center;
+}
+
+li:nth-child(4n+1), li:nth-child(4n+2) {
+  justify-self: start;
+}
+
+li:nth-child(4n+3), li:nth-child(4n+4) {
+  justify-self: end;
+}
+
 .site-nav {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 200px 1fr 1fr 200px;
   font-weight: 700;
   font-size: 14px;
   line-height: 26px;
   list-style: none;
-  margin-left: 10%;
+  margin: 0;
+  padding: 15px 0;
   width: auto;
+  grid-gap: 20px 37px;
 }
 
 .site-nav a {
+  display: block;
   color: var(--black);
   text-transform: uppercase;
 }
@@ -115,10 +133,10 @@ img {
 .main-header-logo {
   width: 138px;
   height: 70px;
-  position: absolute;
   top: 0%;
   left: 50%;
   transform: translateX(-50%);
+  position: absolute;
 }
 
 /*Features*/
@@ -163,6 +181,9 @@ img {
   color: var(--white);
   text-transform: uppercase;
   text-align: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 .viev-text h3 {
@@ -219,6 +240,8 @@ img {
 }
 
 .search-button {
+  display: block;
+  margin: 0 auto;
   color: var(--white);
   font-weight: 700;
   font-size: 21px;
@@ -226,7 +249,6 @@ img {
   text-transform: uppercase;
   background-color: var(--roman-coffee);
   cursor: pointer;
-  margin-left: 37%;
 }
 
 .search-button:hover {
@@ -319,6 +341,15 @@ img {
   opacity: 0.3;
 }
 
+.result-sort {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin-top: 29px;
+  padding-left: 73px;
+  padding-right: 73px;
+  padding-bottom: 30px;
+}
+
 .result-sort span {
   font-weight: 700;
   font-size: 21px;
@@ -331,15 +362,24 @@ img {
   font-size: 12px;
   line-height: 18px;
   text-transform: uppercase;
+  float: left;
+  margin-top: 7px;
+  margin-left: 48px;
+  margin-right: 38px;
 }
 
 .sort-by {
+  margin: 0;
+  padding: 0;
   list-style: none;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
   border-bottom: var(--black);
+  float: left;
+  margin-top: 6px;
+  margin-right: 30px;
 }
 
 .sort-link.active {
@@ -364,6 +404,8 @@ img {
 }
 
 .arrows {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -466,3 +508,9 @@ img {
   color: var(--dim-gray);
 }
 
+.result-number {
+  float: left;
+  margin: 0;
+  padding: 0;
+  line-height: 26px;
+}
