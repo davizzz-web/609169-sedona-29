@@ -155,7 +155,7 @@ img {
 /*Features*/
 
 .our-features {
-  margin: 42px auto 54px;
+  margin: 42px auto 50px;
   max-width: 519px;
   text-align: center;
 }
@@ -276,7 +276,7 @@ img {
 }
 
 .feature-item h3 {
-  margin: -3px auto 25px auto;
+  margin: 0px auto 25px auto;
   font-weight: 600;
   font-size: 21px;
   line-height: 21px;
@@ -308,7 +308,7 @@ img {
 }
 
 .ofering-item {
-  padding: 58px 0 28px 0;
+  padding: 55px 0 28px 0;
   max-width: 435px;
   margin: 0 auto;
 }
@@ -373,6 +373,7 @@ img {
 .footer-contacts {
   align-items: center;
   padding: 24px 74px 38px 110px;
+  text-align: center;
 }
 
 .inst {
@@ -387,8 +388,7 @@ img {
   font-weight: 700;
   font-size: 21px;
   line-height: 26px;
-  margin: 0;
-  padding: 6px 12px 0px 12px;
+  margin: 12px 0 0 0;
 }
 
 .footer-phone {
