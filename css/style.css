@@ -332,6 +332,7 @@ img {
 }
 
 .search-button {
+  position: relative;
   display: block;
   margin: 0 auto;
   color: var(--white);
@@ -701,7 +702,7 @@ img {
 /*form-1*/
 
 .form-container {
-  top: 100%;
+  position: absolute;
   width: 568px;
   transform: translateX(-50%);
   background-color: var(--white);
@@ -783,6 +784,7 @@ img {
   height: 38px;
   background-color: var(--extra-light);
   border: 0;
+  cursor: pointer;
 }
 
 .search-form-item-adult {
@@ -820,6 +822,7 @@ img {
   padding-top: 17px;
   padding-bottom: 18px;
   border: none;
+  cursor: pointer;
 }
 
 .search-form-button:hover {
@@ -830,14 +833,3 @@ img {
   color: var(--white-30);
 }
 
-
-.fun:active {
-  position: relative;
-  background: url('../img/di.png');
-  width: 550px;
-  height: 550px;
-}
-
-.welcome:active {
-  display: none;
-}
