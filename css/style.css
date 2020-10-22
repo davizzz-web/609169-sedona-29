@@ -308,7 +308,6 @@ img {
 }
 
 .ofering-item {
-  position: relative;
   padding: 55px 0 28px 0;
   max-width: 435px;
   margin: 0 auto;
@@ -701,16 +700,21 @@ img {
 
 /*form-1*/
 
+.search-wrapper {
+  position: relative;
+}
+
 .form-container {
   position: absolute;
   width: 568px;
-  transform: translateX(-50%);
   background-color: var(--white);
   box-shadow: 0px 5px 15px var(--special-black-russian-shadow);
   box-sizing: border-box;
   padding: 55px;
   height: 395px;
   left: 50%;
+  top:100%;
+  transform: translateX(-50%);
 }
 
 .search-form-item {
