@@ -19,10 +19,18 @@
             />
           </a>
           <ul class="site-nav">
-            <li class="item-nav"><a href="blank.html">Информация</a></li>
-            <li class="item-nav"><a href="blank.html">Фото и видео</a></li>
-            <li class="item-nav"><a href="blank.html">Карта штата</a></li>
-            <li class="item-nav"><a href="catalog.html">Гостиницы</a></li>
+            <li class="item-nav">
+              <a href="blank.html" aria-label="Информация">Информация</a>
+            </li>
+            <li class="item-nav">
+              <a href="blank.html" aria-label="Фото и видео">Фото и видео</a>
+            </li>
+            <li class="item-nav">
+              <a href="blank.html" aria-label="Карта штата">Карта штата</a>
+            </li>
+            <li class="item-nav">
+              <a href="catalog.html" aria-label="Гостиницы">Гостиницы</a>
+            </li>
           </ul>
         </nav>
       </header>
@@ -196,23 +204,23 @@
               <h3>Сортировка:</h3>
               <ul class="sort-by">
                 <li>
-                  <a class="sort-link active" href="#">По цене</a>
+                  <a class="sort-link active" href="#" aria-label="Цена">По цене</a>
                 </li>
                 <li>
-                  <a class="sort-link" href="#">По типу</a>
+                  <a class="sort-link" href="#" aria-label="Тип">По типу</a>
                 </li>
                 <li>
-                  <a class="sort-link" href="#">По рейтингу</a>
+                  <a class="sort-link" href="#" aria-label="Рейтинг">По рейтингу</a>
                 </li>
               </ul>
               <ul class="arrows">
                 <li>
-                  <a href="#"><svg width="11" height="10" viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <a href="#" class="up" aria-label="Стрелка вверх"><svg width="11" height="10" viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M5.5 0L0 10H11L5.5 0Z" fill="#CACACA"/>
                     </svg></a>
                 </li>
                 <li>
-                  <a href="#"><svg width="11" height="10" viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <a href="#" class="down" aria-label="Стрелка вниз"><svg width="11" height="10" viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M5.5 10L11 0L0 0L5.5 10Z" fill="#CACACA"/>
                     </svg></a>
                 </li>
@@ -228,32 +236,18 @@
               class="result-content__pic"
             />
             <div class="result-content__description">
-              <a href="#" class="result-content__title">Amara resort & SPA</a>
+              <a href="#" class="result-content__title" aria-label="Amara resort & SPA">Amara resort & SPA</a>
               <div class="description">
                 <span class="result-content__type">Гостиница</span>
                 <span class="result-content__type">От 4000 Р.</span>
               </div>
               <div class="links">
-                <a href="#" class="result-content__details">Подробнее</a>
-                <a href="#" class="result-content__brone">Забронировать</a>
+                <a href="#" class="result-content__details" aria-label="Подробнее">Подробнее</a>
+                <a href="#" class="result-content__brone" aria-label="Забронировать">Забронировать</a>
               </div>
             </div>
             <div class="result-content__rating-block">
-              <ul class="stars">
-                <li class="stars__star"></li>
-                <li class="stars__star"><svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M9.002 0L11.128 6.494H18.005L12.441 10.506L14.566 17L9.002 12.987L3.438 17L5.564 10.506L0 6.494H6.878L9.002 0Z" fill="#81B3D2"/>
-                  </svg></li>
-                <li class="stars__star"><svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M9.002 0L11.128 6.494H18.005L12.441 10.506L14.566 17L9.002 12.987L3.438 17L5.564 10.506L0 6.494H6.878L9.002 0Z" fill="#81B3D2"/>
-                  </svg></li>
-                <li class="stars__star"><svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M9.002 0L11.128 6.494H18.005L12.441 10.506L14.566 17L9.002 12.987L3.438 17L5.564 10.506L0 6.494H6.878L9.002 0Z" fill="#81B3D2"/>
-                  </svg></li>
-                <li class="stars__star"><svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M9.002 0L11.128 6.494H18.005L12.441 10.506L14.566 17L9.002 12.987L3.438 17L5.564 10.506L0 6.494H6.878L9.002 0Z" fill="#81B3D2"/>
-                  </svg></li>
-              </ul>
+              <div class="star-block star-block--four-star"></div>
               <p class="result-content__rating-text">Рейтинг: 8,5</p>
             </div>
           </div>
@@ -266,30 +260,18 @@
               class="result-content__pic"
             />
             <div class="result-content__description">
-              <a href="#" class="result-content__title">Desert quail inn</a>
+              <a href="#" class="result-content__title" aria-label="Desert quail inn">Desert quail inn</a>
               <div class="description">
                 <span class="result-content__type">Мотель</span>
                 <span class="result-content__type">от 3000 Р.</span>
               </div>
               <div class="links">
-                <a href="#" class="result-content__details">Подробнее</a>
-                <a href="#" class="result-content__brone">Забронировать</a>
+                <a href="#" class="result-content__details" aria-label="Подробнее">Подробнее</a>
+                <a href="#" class="result-content__brone" aria-label="Забронировать">Забронировать</a>
               </div>
             </div>
             <div class="result-content__rating-block">
-              <ul class="stars">
-                <li class="stars__star"></li>
-                <li class="stars__star"></li>
-                <li class="stars__star"><svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M9.002 0L11.128 6.494H18.005L12.441 10.506L14.566 17L9.002 12.987L3.438 17L5.564 10.506L0 6.494H6.878L9.002 0Z" fill="#81B3D2"/>
-                  </svg></li>
-                <li class="stars__star"><svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M9.002 0L11.128 6.494H18.005L12.441 10.506L14.566 17L9.002 12.987L3.438 17L5.564 10.506L0 6.494H6.878L9.002 0Z" fill="#81B3D2"/>
-                  </svg></li>
-                <li class="stars__star"><svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M9.002 0L11.128 6.494H18.005L12.441 10.506L14.566 17L9.002 12.987L3.438 17L5.564 10.506L0 6.494H6.878L9.002 0Z" fill="#81B3D2"/>
-                  </svg></li>
-              </ul>
+             <div class="star-block star-block--three-star"></div>
               <p class="result-content__rating-text">Рейтинг: 8,9</p>
             </div>
           </div>
@@ -302,7 +284,7 @@
               class="result-content__pic"
             />
             <div class="result-content__description">
-              <a href="#" class="result-content__title"
+              <a href="#" class="result-content__title" aria-label="Villas at poco diablo"
                 >Villas at poco diablo</a
               >
               <div class="description">
@@ -310,22 +292,12 @@
               <span class="result-content__type">От 2000 Р.</span>
               </div>
               <div class="links">
-              <a href="#" class="result-content__details">Подробнее</a>
-              <a href="#" class="result-content__brone">Забронировать</a>
+              <a href="#" class="result-content__details" aria-label="Подробнее">Подробнее</a>
+              <a href="#" class="result-content__brone" aria-label="Забронировать">Забронировать</a>
               </div>
             </div>
             <div class="result-content__rating-block">
-              <ul class="stars">
-                <li class="stars__star"></li>
-                <li class="stars__star"></li>
-                <li class="stars__star"></li>
-                <li class="stars__star"><svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M9.002 0L11.128 6.494H18.005L12.441 10.506L14.566 17L9.002 12.987L3.438 17L5.564 10.506L0 6.494H6.878L9.002 0Z" fill="#81B3D2"/>
-                  </svg></li>
-                <li class="stars__star"><svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M9.002 0L11.128 6.494H18.005L12.441 10.506L14.566 17L9.002 12.987L3.438 17L5.564 10.506L0 6.494H6.878L9.002 0Z" fill="#81B3D2"/>
-                  </svg></li>
-              </ul>
+              <div class="star-block star-block--two-star"></div>
               <p class="result-content__rating-text">Рейтинг: 9,2</p>
             </div>
           </div>
@@ -336,7 +308,10 @@
           <p class="inst">#visitSEDONA</p>
           <p class="tel">
             Тел:
-            <a class="footer-phone" href="tel:+74956660166"
+            <a
+              class="footer-phone"
+              href="tel:+74956660166"
+              aria-label="Наш телефон"
               >+7 (495) 666-01-66</a
             >
           </p>
@@ -344,7 +319,7 @@
         <ul class="footer-social">
           <li>
             <span class="visually-hidden">Twitter</span>
-            <a class="social-link" href="#"
+            <a class="social-link" href="#" aria-label="Твиттер"
               ><svg
                 width="17"
                 height="17"
@@ -360,7 +335,7 @@
           </li>
           <li>
             <span class="visually-hidden">Facebook</span>
-            <a class="social-link" href="#"
+            <a class="social-link" href="#" aria-label="Фейсбук"
               ><svg
                 width="12"
                 height="22"
@@ -376,7 +351,7 @@
           </li>
           <li>
             <span class="visually-hidden">Youtube</span>
-            <a class="social-link" href="#"
+            <a class="social-link" href="#" aria-label="Ютуб"
               ><svg
                 width="20"
                 height="16"
@@ -398,6 +373,7 @@
             Website by&nbsp;<a
               href="https://htmlacademy.ru/"
               class="academy-logo"
+              aria-label="Создатели сайта"
             >
               <svg
                 width="114"
