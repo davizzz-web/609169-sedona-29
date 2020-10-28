@@ -481,6 +481,7 @@ img {
   display: grid;
   grid-template-columns: 1fr 4fr;
   padding: 27px 74px 27px 73px;
+  border-bottom: 1px solid var(--wisper);
 }
 
 .result-sort span {
@@ -589,7 +590,7 @@ img {
 
 .result-content__details {
   width: 110px;
-  height: 25px;
+  height: 27px;
   left: 277px;
   top: 604px;
   background-color: var(--seagull);
@@ -597,7 +598,7 @@ img {
   text-transform: uppercase;
   font-weight: 400;
   font-size: 14px;
-  line-height: 21px;
+  line-height: 27px;
   display: inline-block;
   margin-right: 3px;
   text-align: center;
@@ -615,7 +616,7 @@ img {
 
 .result-content__brone {
   width: 144px;
-  height: 25px;
+  height: 27px;
   left: 277px;
   top: 604px;
   background-color: var(--roman-coffee);
@@ -623,7 +624,7 @@ img {
   text-transform: uppercase;
   font-weight: 400;
   font-size: 14px;
-  line-height: 21px;
+  line-height: 27px;
   text-align: center;
 }
 
@@ -678,7 +679,7 @@ img {
   text-transform: uppercase;
   font-weight: normal;
   font-size: 14px;
-  line-height: 21px;
+  line-height: 27px;
   color: var(--dim-gray);
   text-align: center;
   margin-bottom: 0;
@@ -696,10 +697,6 @@ img {
   grid-template-columns: 135px 1fr 110px;
   padding: 27px 73px;
   border-bottom: 1px solid var(--wisper);
-}
-
-.result-content:nth-child(1n) {
-  border-top: 1px solid var(--wisper);
 }
 
 .result-content__description {
@@ -1003,29 +1000,32 @@ img {
 
 .filter-price-range-min {
   position: absolute;
-  transform: translateY(-50%);
   width: 4px;
   height: 4px;
   background-color: var(--dim-gray);
   border: 7px solid var(--white);
   border-radius: 10px;
   box-shadow: 0 2px var(--dim-grey);
+  margin-left: 2px;
+  cursor: pointer;
+  top: -5px;
 }
 
 .filter-price-range-max {
   position: absolute;
-  transform: translate(253px, -50%);
   width: 4px;
   height: 4px;
   background-color: var(--dim-gray);
   border: 7px solid var(--white);
   border-radius: 10px;
   box-shadow: 0 2px var(--dim-gray);
+  cursor: pointer;
+  top: -5px;
 }
 
 .filter-price-range-max:hover,
 .filter-price-range-min:hover {
-  border: 9px solid var(--white);
+      transform: scale(1.7);
 }
 
 .filter-price-button {
