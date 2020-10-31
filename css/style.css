@@ -118,6 +118,7 @@ img {
 .item-nav:nth-child(4n + 1) {
   justify-self: start;
   padding-left: 73px;
+  padding-right: 20px;
 }
 
 .item-nav:nth-child(4n + 2) {
@@ -133,6 +134,7 @@ img {
 .item-nav:nth-child(4n + 4) {
   justify-self: end;
   padding-right: 73px;
+  padding-left: 20px;
 }
 
 .catalog-nav a:active {
